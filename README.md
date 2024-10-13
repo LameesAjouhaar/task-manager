@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+Task Management App
+This project is a simple Task Management Application built using React and TypeScript. The app allows users to manage their tasks efficiently by adding, editing, deleting, and marking tasks as complete or incomplete. It includes search/filter functionality for better task organization.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Add New Task: Users can add new tasks with a task name.
+Edit Task: Users can edit task names.
+Delete Task: Tasks can be removed from the list.
+Toggle Task Status: Mark tasks as either completed or incomplete.
+Search and Filter: Users can search tasks or filter by completion status.
+Responsive Design: The UI is responsive and works across different device sizes.
 
-## Available Scripts
+Tech Stack
+Frontend: React (TypeScript)
+CSS Framework: Custom CSS for all components (no ui library being utilized)
+State Management: React's built-in state management (useState, useEffect)
 
-In the project directory, you can run:
 
-### `npm start`
+Installation and Setup
+To get the project up and running locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Prerequisites
+Make sure you have Node.js and npm installed.
+Running project locally on node version 20.12.2
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone the repository:
 
-### `npm test`
+bash
+git clone https://github.com/LameesAjouhaar/task-manager-app.git
+Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+cd task-manager-app
+Install the dependencies:
 
-### `npm run build`
+bash
+npm install
+Start the development server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+npm start
+The app should now be running at http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+to run unit test:
+bash
+npm test

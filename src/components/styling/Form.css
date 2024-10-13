@@ -1,0 +1,59 @@
+.add-task-button {
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.form-header {
+    color: #2f3542;
+    float: left;
+    margin-left: 6%;
+}
+
+.form-button-container {
+    float: right;
+    margin-right: 7%;
+}
+
+.task-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #6c7073;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.task-input::placeholder {
+    color: #aaa;
+}
+
+.task-input:focus {
+    border-color: #222325;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.new-task-button {
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
